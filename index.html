@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soma's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Welcome Message -->
+  <div id="welcome-overlay">
+    <div id="welcome-content">
+      <button id="close-button">&times;</button>
+      <video id="welcome-video" autoplay loop muted playsinline>
+        <source src="./images/Portfolio.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>Thank you very much for visiting!<br><br>- Soma</p>
+    </div>
+  </div>
+
+  <!-- Website Content -->
+  <div id="content-container">
+    <div id="main-content">
+        <h1>Soma's Portfolio</h1>
+        <div class="projects">
+          <div class="image-container image slide">
+            <a href="https://github.com/CLion2/A-S-Bookstore.git"><img src="/images/Bookstore.png" class="hover-image" alt="Local Web App"></a>
+            <p class="image-text">
+              『 A&S Bookstore 』(Not Deployed Yet)<br>
+              GitHub: <a href="https://github.com/CLion2/A-S-Bookstore.git">https://github.com/CLion2/A-S-Bookstore.git</a>  
+            </p>
+          </div>
+          <div class="image-container image slide">
+            <a href="https://wakamoli.itch.io/death-blow"><img src="/images/Game.png" class="hover-image" alt="Web Game"></a>
+            <p class="image-text">
+              『 Death Blow 』<br>
+              Game Link (itch.io):<br>
+              <a href="https://wakamoli.itch.io/death-blow">https://wakamoli.itch.io/death-blow</a><br>
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      LinkedIn: soma-matsumoto
+    </p>
+    <p>
+      &copy; 2024 Soma Matsumoto. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
